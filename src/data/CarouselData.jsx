@@ -1,17 +1,18 @@
-import faces from "../images/faces.jpg";
-import girlface from "../images/girlface.jpg";
-import eyes from "../images/eyes.jpg";
-
-export const images = [
-  { title: "Faces", subtitle: "How many faces do you have?", img: faces },
+// data/CarouselData.jsx
+export const CarouselData = [
   {
-    title: "Inside out",
-    subtitle: "The best person to guide you is yourself",
-    img: girlface,
+    image: 'https://picsum.photos/800/600?random=11',  // Placeholder image 1
   },
   {
-    title: "Crying Lady",
-    subtitle: "Why so serious?",
-    img: eyes,
+    image: 'https://picsum.photos/800/600?random=12',  // Placeholder image 2
+  },
+  {
+    image: 'https://picsum.photos/800/600?random=13',  // Placeholder image 3
+  },
+  {
+    image: 'https://picsum.photos/800/600?random=14',  // Placeholder image 4
+  },
+  {
+    image: 'https://picsum.photos/800/600?random=15',  // Placeholder image 5
   },
 ];
